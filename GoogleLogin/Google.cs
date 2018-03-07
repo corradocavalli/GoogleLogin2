@@ -17,9 +17,9 @@ namespace GoogleLogin
         private const string ProfileUrl = "https://www.googleapis.com/plus/v1/people/me";
         private const string Scope = "email profile";
 
-        private string ClientId = "219429978628-tu0vj720uokgleh8epdmpipogo6tqlaj.apps.googleusercontent.com";
-        private const string ClientSecret = "cZWRiRVbOhD_9qPtvBdi62Ps";
-        private const string CallbackUri = "http://www.ibvsolutions.com";
+        private string ClientId = "YourClientID Here";
+        private const string ClientSecret = "Your Secret here";
+        private const string CallbackUri = "Your site here";
 
         public async Task<GoogleUser> AuthenticateAsync()
         {
